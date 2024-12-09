@@ -1,0 +1,43 @@
+/* Basic body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+    text-align: center;
+}
+
+/* Styling for the h1 element */
+#h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Styling for the buttons */
+button {
+    background-color: #007bff;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Button disabled styling */
+button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
